@@ -1,0 +1,6 @@
+﻿.index-carousel-container {
+  position: absolute;
+  width: 100%;
+  left: 0%;
+  max-height: 20% !important;
+}

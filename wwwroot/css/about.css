@@ -1,0 +1,22 @@
+﻿h1 {
+  margin-top: 4%;
+  margin-bottom: 4%;
+  text-align: center;
+}
+
+.main-about {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: justify;
+}
+
+.about-mission {
+  margin-top: 5%;
+  text-align: justify;
+}
+
+.about-values {
+  margin-top: 5%;
+}
+

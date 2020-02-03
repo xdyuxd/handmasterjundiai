@@ -4,3 +4,12 @@
   left: 0%;
   max-height: 20% !important;
 }
+
+.carousel-control-next .carousel-control-prev {
+  color: black;
+}
+
+.carousel-inner img { 
+  height: 400px;
+  object-fit: contain;
+}

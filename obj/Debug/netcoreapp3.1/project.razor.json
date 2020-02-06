@@ -20521,6 +20521,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/home/xdyuxd/Desktop/handmasterjundiai/Pages/Store.cshtml",
+      "TargetPath": "Pages/Store.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/home/xdyuxd/Desktop/handmasterjundiai/Pages/Team.cshtml",
       "TargetPath": "Pages/Team.cshtml",
       "FileKind": "mvc"
@@ -20538,6 +20543,11 @@
     {
       "FilePath": "/home/xdyuxd/Desktop/handmasterjundiai/Pages/Contact.cshtml",
       "TargetPath": "Pages/Contact.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/xdyuxd/Desktop/handmasterjundiai/Pages/About.cshtml",
+      "TargetPath": "Pages/About.cshtml",
       "FileKind": "mvc"
     },
     {

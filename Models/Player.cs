@@ -8,11 +8,10 @@ using Microsoft.Extensions.Logging;
 using System.IO;
 
 namespace handmasterjundiai.Models{
-    public class player{
-        public string name { get; set; }
-        public string team { get; set; }
-        public string position { get; set; }
-        public string image { get; set; }
-
+    public class Player{
+        public string Name { get; set; }
+        public string Team { get; set; }
+        public string Position { get; set; }
+        public string Image { get; set; }
     }
 }

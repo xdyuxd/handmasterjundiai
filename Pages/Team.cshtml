@@ -1,8 +1,13 @@
 ﻿@page
+@using handmasterjundiai.Models;
 @model TeamModel
 @{
     ViewData["Title"] = "Time";
+    var f30 = ViewData["f30"] as List<Player>;
+    var m35 = ViewData["m35"] as List<Player>;
+    var m42 = ViewData["m42"] as List<Player>;
 }
+
 
 
 <link href="~/css/team.css" rel="stylesheet" type="text/css" />
@@ -10,34 +15,46 @@
 <h1>@ViewData["Title"]</h1>
 
 <div class="main-teams">
-    <div class="team-30-female">
     <h1>+30 Feminino</h1>
-        <div class="team-30-female-cards">
-            <div class="card">
-                <img class="card-img-top" src="" alt="">
-            <div class="card-body">
-                <p class="card-text"><br></p>
+    <div class="team-30-female">
+        @foreach (var player in f30)
+        {
+            <div class="team-30-female-cards">
+                <div class="card">
+                    <img class="card-img-top" src=@player.Image alt="">
+                </div>
+                <div class="card-body">
+                    <p class="card-text">@player.Name<br>@player.Position</p>
+                </div>
             </div>
-        </div>
+        }
     </div>
     <div class="team-35-male">
     <h1>+35 Masculino</h1>
-        <div class="team-35-male-cards">
-            <div class="card">
-                <img class="card-img-top" src="" alt="">
-            <div class="card-body">
-                <p class="card-text"><br></p>
+        @foreach (var player in m35)
+        {
+            <div class="team-35-male-cards">
+                <div class="card">
+                    <img class="card-img-top" src=@player.Image alt="">
+                </div>
+                <div class="card-body">
+                    <p class="card-text">@player.Name<br>@player.Position</p>
+                </div>
             </div>
-        </div>
+        }
     </div>
     <div class="team-42-male">
     <h1>+42 Masculino</h1>
-        <div class="team-42-male-cards">
-            <div class="card">
-                <img class="card-img-top" src="" alt="">
-            <div class="card-body">
-                <p class="card-text"><br></p>
+        @foreach (var player in m42)
+        {
+            <div class="team-35-male-cards">
+                <div class="card">
+                    <img class="card-img-top" src=@player.Image alt="">
+                </div>
+                <div class="card-body">
+                    <p class="card-text">@player.Name<br>@player.Position</p>
+                </div>
             </div>
-        </div>
+        }
     </div>
 </div>

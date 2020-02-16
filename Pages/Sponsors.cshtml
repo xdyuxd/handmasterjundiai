@@ -1,7 +1,22 @@
 ﻿@page
+@using handmasterjundiai.Models;
 @model SponsorsModel
 @{
-    ViewData["Title"] = "Home page";
+    ViewData["Title"] = "Patrocinadores";
+    var sponsorlist = ViewData["sponsorlist"] as List<Sponsor>;
 }
 
-TIME B
+<link href="~/css/sponsor.css" rel="stylesheet" type="text/css" />
+
+<h1>@ViewData["Title"]</h1>
+
+<div class="sponsors">
+    @foreach (var item in sponsorlist)
+    {   
+        <div class="sponsor-image shadow-sm p-3 bg-white">
+            <a href=@item.Url>
+                <img src=@item.Image>
+            </a>
+        </div>
+    }
+</div>

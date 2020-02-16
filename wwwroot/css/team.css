@@ -7,9 +7,8 @@
 .main-teams h1 {
   text-align: left;
   margin-top: 2%;
-  margin-bottom: 10%;
   font-size: 140%;
-  
+ 
 }
 
 .main-teams {
@@ -17,15 +16,23 @@
   display: flex;
   max-height: 40%;
   align-content: space-around;
+  flex-direction: column;
 }
 
 .team-30-female-cards {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.team-30-female{
+  display: flex;
+  max-height: 20%;
 }
 
 .card {
-  max-width:60%;
-  max-height: 60%;
+  max-width:80%;
+  max-height: 80%;
   margin: 1% 1% 1% 1%;
   padding: 2px 2px 2px 2px;
 }
@@ -36,5 +43,4 @@
 
 .card-body {
   padding: 1% 1% 1% 1%;
-  font-size: 0.8rem;
 }

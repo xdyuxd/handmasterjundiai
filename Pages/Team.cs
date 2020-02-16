@@ -26,9 +26,9 @@ namespace handmasterjundiai.Pages
             var reader = new Csv();
             var players = reader.read("playerlist.csv");
 
-            Player[] f30 = null;
-            Player[] m35 = null;
-            Player[] m42 = null;
+            List<Player> f30 = new List<Player>();
+            List<Player>  m35 = new List<Player>();
+            List<Player>  m42 = new List<Player>();
 
             for (int i = 0; i < players.Count; i++){
                 String[] fullplayer = players[i].Split(";");
@@ -41,16 +41,20 @@ namespace handmasterjundiai.Pages
                 switch (player.Team)
                 {
                     case "30F":
-                        f30.Append(player);
+                        f30.Add(player);
                         break;
                     case "35M":
-                        m35.Append(player);
+                        m35.Add(player);
                         break;
                     default:
-                        m42.Append(player);
+                        m42.Add(player);
                         break;
                 }
             }
+            
+            ViewData["f30"] = f30;
+            ViewData["m35"] = m35;
+            ViewData["m42"] = m42;
         }
     }
 }

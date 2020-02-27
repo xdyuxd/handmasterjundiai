@@ -19,40 +19,43 @@
     <div class="team-30-female">
         @foreach (var player in f30)
         {
-            <div class="team-30-female-cards">
+            <div class="team-30-female-cards bg-white box-shadow">
                 <div class="card">
                     <img class="card-img-top" src=@player.Image alt="">
                 </div>
                 <div class="card-body">
-                    <p class="card-text">@player.Name<br>@player.Position</p>
+                    <p class="card-text border-bottom">@player.Name<br></p>
+                    <p class="card-text position"><br>@player.Position</p>
                 </div>
             </div>
         }
     </div>
-    <div class="team-35-male">
     <h1>+35 Masculino</h1>
+    <div class="team-35-male">
         @foreach (var player in m35)
         {
-            <div class="team-35-male-cards">
+            <div class="team-35-male-cards bg-white box-shadow">
                 <div class="card">
                     <img class="card-img-top" src=@player.Image alt="">
                 </div>
                 <div class="card-body">
-                    <p class="card-text">@player.Name<br>@player.Position</p>
+                    <p class="card-text border-bottom">@player.Name<br></p>
+                    <p class="card-text position"><br>@player.Position</p>
                 </div>
             </div>
         }
     </div>
-    <div class="team-42-male">
     <h1>+42 Masculino</h1>
+    <div class="team-42-male">
         @foreach (var player in m42)
         {
-            <div class="team-35-male-cards">
+            <div class="team-35-male-cards bg-white box-shadow">
                 <div class="card">
                     <img class="card-img-top" src=@player.Image alt="">
                 </div>
                 <div class="card-body">
-                    <p class="card-text">@player.Name<br>@player.Position</p>
+                    <p class="card-text border-bottom">@player.Name<br></p>
+                    <p class="card-text position"><br>@player.Position</p>
                 </div>
             </div>
         }

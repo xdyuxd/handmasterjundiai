@@ -36,9 +36,6 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-page="/Store">Loja Virtual</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Contact">Contato</a>
-                        </li>
                     </ul>
                 </div>
             </div>
@@ -51,14 +48,24 @@
     </div>
 
     <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2020 - Yuri C Kaminski - <a asp-area="" asp-page="/Privacy">Contato</a>
+        <div class="footer-info container">
+            &copy; 2020 - Yuri Cappellano Kaminski  
+                <div class="contact-icons">
+                    <h2>Nos siga nas redes sociais - </h2>
+                    <a href="https://www.facebook.com/pg/Handebol-Master-Jundia%C3%AD-2027197000743156/posts/" class="fab fa-facebook-square"></a>
+                    <a href="https://www.instagram.com/timemasterjundiai/" class="fab fa-instagram-square"></a>
+                    <a href="https://www.linkedin.com/in/time-master-handebol-jundia%C3%AD-3a89a8195/" class="fab fa-linkedin"></a>
+                    <a href="https://www.youtube.com/channel/UCuiqbSLp8MsDbuFqYBprm0Q" class="fab fa-youtube-square"></a>
+                </div>
         </div>
     </footer>
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
+    <link href="https://use.fontawesome.com/releases/v5.0.1/css/all.css" rel="stylesheet" type="text/css" /> 
+    <script src="https://kit.fontawesome.com/971b6f73c3.js" crossorigin="anonymous"></script>
+
 
     @RenderSection("Scripts", required: false)
 </body>

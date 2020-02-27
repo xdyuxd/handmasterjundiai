@@ -9,6 +9,11 @@
   flex-direction: column;
   justify-content: space-between;
   text-align: justify;
+  padding: 0px 20px 20px 20px;
+}
+
+.main-about span{
+  color: #04326d;
 }
 
 .about-mission {

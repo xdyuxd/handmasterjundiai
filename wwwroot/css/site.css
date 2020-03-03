@@ -2,8 +2,7 @@
 for details on configuring this project to bundle and minify static web assets. */
 
 .navbar {
-  margin-bottom: 0px !important;
-
+  border-bottom: 3px solid #1aa5de !important;
 }
 
 a.navbar-brand {
@@ -46,6 +45,12 @@ html {
   }
 }
 
+@media (max-width: 400px){
+  html {
+    font-size: 12px;
+  }
+}
+
 .border-top {
   border-top: 1px solid #e5e5e5;
 }
@@ -74,6 +79,7 @@ body {
   margin-bottom: 60px;
   background-color: rgb(240,240,240)
 }
+
 .footer {
   position: absolute;
   bottom: 0;
@@ -81,6 +87,7 @@ body {
   white-space: nowrap;
   line-height: 60px; /* Vertically center the text there */
   background-color: rgb(255,255,255);
+  border-bottom: 4px solid #1aa5de;
 }
 
 @media screen and (max-width: 1000px) {
@@ -110,22 +117,26 @@ body {
 }
 
 
-.fa-facebook-square {
+.fa-facebook-square, .fa-facebook-square:hover {
   color: #4267b2;
   margin: 2px 2px 2px 2px;
 }
 
-.fa-instagram-square {
+.fa-instagram-square, .fa-instagram-square:hover {
   color: #d6249f;
   margin: 2px 2px 2px 2px;
 }
 
-.fa-linkedin {
+.fa-linkedin, .fa-linkedin:hover {
   color: #0073b0;
   margin: 2px 2px 2px 2px;
 }
 
-.fa-youtube-square{
+.fa-youtube-square, .fa-youtube-square:hover{
   color: #ff0000;
   margin: 2px 2px 2px 2px;
+}
+
+.active {
+  color: #1aa5de !important;
 }

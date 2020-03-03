@@ -2,8 +2,11 @@
 // for details on configuring this project to bundle and minify static web assets.
 
 // Write your Javascript code.
-
-$(".nav-link").on("click", function(){
-    $(".nav-link").find("active").removeClass("active");
-    $(this).addClass("active");
- });
+var path = $(location).attr('href');
+$(".nav-link").each( function() {
+    console.log(path)
+    console.log(this.href)
+    if (path == this.href){
+        $(this).addClass("active")
+    }
+});

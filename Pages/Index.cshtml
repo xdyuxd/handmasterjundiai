@@ -2,13 +2,50 @@
 @model IndexModel
 
 @{
-    ViewData["Title"] = "Home page";
+    ViewData["Title"] = "Sobre o time";
 }
 
-<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<link rel="stylesheet" href="~/node_modules/owl.carousel/dist/assets/owl.carousel.min.css">
+<link rel="stylesheet" href="~/node_modules/owl.carousel/dist/assets/owl.theme.default.min.css">
 <link href="~/css/index.css" rel="stylesheet" type="text/css" />
+
+<script src="~/node_modules/owl.carousel/dist/owl.carousel.min.js"></script>
+
 <script src="~/js/Index.js"></script>
 
 <div class="index-info">
-  
+    <div class="main-about container-fluid bg-white">
+        <h1>@ViewData["Title"]</h1>
+        <div class="about-the-team">
+        <b><span>O que é o Time Handebol Master de Jundiaí ?</span></b><br/>
+
+        O Time Handebol Master de Jundiaí é um grupo atualmente de 60 cidadãos de Jundiaí e região sendo em sua grande maioria composta de ex-atletas profissionais e amadores que tem um objetivo comum praticar este fascinante e apaixonante esporte melhorando suas condições de saúde física e mental e levando o nome da cidade de Jundiaí novamente entre os grandes do esporte nacional nesta modalidade.
+        A nossa equipe hoje tem o apoio da Prefeitura de Jundiaí acompanhado e supervisionado pela Diretora de Esportes Rita de Cássia Orsi.
+        </div>
+        <div class="about-mission">
+        <b><span>Missão</span></b><br/>
+
+        Através do Handebol melhorar a qualidade de vida e bem estar dos praticantes e consequentemente de seus familiares e servir de referência e exemplo junto as novas gerações de atletas em desenvolvimento e contribuir para o desenvolvimento da cidade como referência na pratica do esporte.
+        </div>
+        <div class="about-values">
+        <b><span>Valores</span></b><br/>
+
+        <span>•</span> Respeito as regras do esporte, pessoas e parceiros comercias<br/>
+
+        <span>•</span> Ser referência de atitude e ações esportivas junto a cidade de Jundiaí<br/>
+
+        <span>•</span> Qualidade de vida, saúde e bem estar<br/>
+
+        <span>•</span> Trabalho em equipe para superar os desafios da vida<br/>
+
+        <span>•</span> Amizade, Alegria e Diversão<br/>
+        </div>
+    </div>
+    <div class="owl-carousel owl-theme">
+        <div class="item"><img src="/images/IndexCarousel/1.jpg" /></div>
+        <div class="item"><img src="/images/IndexCarousel/2.jpg" /></div>
+        <div class="item"><img src="/images/IndexCarousel/3.jpg" /></div>
+        <div class="item"><img src="/images/IndexCarousel/4.jpeg" /></div>
+        <div class="item"><img src="/images/IndexCarousel/5.jpeg" /></div>
+    </div>
 </div>

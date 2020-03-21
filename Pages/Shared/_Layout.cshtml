@@ -6,6 +6,7 @@
     <title>@ViewData["Title"] - Time Handmaster Jundiaí</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
 </head>
 <body>
     <header>
@@ -25,20 +26,20 @@
                             <a class="nav-link" asp-area="" asp-page="/Index">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" asp-area="" asp-page="/About">Sobre</a>
-                        </li>
-                        <li class="nav-item">
                             <a class="nav-link" asp-area="" asp-page="/Team">Time</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" asp-area="" asp-page="/Sponsors">Patrocinadores</a>
                         </li>
                         <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-page="/Games">Jogos</a>
+                        </li>
+                        <li class="nav-item">
                             <a class="nav-link" asp-area="" asp-page="/Store">Loja Virtual</a>
                         </li>
                     </ul>
                 </div>
-            </div>
+            </div>  
         </nav>
     </header>
     <div class="container">
@@ -59,12 +60,13 @@
         </div>
     </footer>
 
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    
     <script src="~/js/site.js" asp-append-version="true"></script>
     <link href="https://use.fontawesome.com/releases/v5.0.1/css/all.css" rel="stylesheet" type="text/css" /> 
     <script src="https://kit.fontawesome.com/971b6f73c3.js" crossorigin="anonymous"></script>
-
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    
+ 
 
     @RenderSection("Scripts", required: false)
 </body>

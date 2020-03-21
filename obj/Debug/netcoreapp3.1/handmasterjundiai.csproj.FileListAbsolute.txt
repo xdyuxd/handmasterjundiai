@@ -32,8 +32,9 @@
 /home/xdyuxd/Desktop/handmasterjundiai/obj/Debug/netcoreapp3.1/handmasterjundiai.dll
 /home/xdyuxd/Desktop/handmasterjundiai/obj/Debug/netcoreapp3.1/handmasterjundiai.pdb
 /home/xdyuxd/Desktop/handmasterjundiai/obj/Debug/netcoreapp3.1/handmasterjundiai.csproj.CopyComplete
-/home/xdyuxd/Desktop/handmasterjundiai/obj/Debug/netcoreapp3.1/Razor/Pages/Contact.cshtml.g.cs
 /home/xdyuxd/Desktop/handmasterjundiai/obj/Debug/netcoreapp3.1/Razor/Pages/Team.cshtml.g.cs
 /home/xdyuxd/Desktop/handmasterjundiai/obj/Debug/netcoreapp3.1/Razor/Pages/Sponsors.cshtml.g.cs
-/home/xdyuxd/Desktop/handmasterjundiai/obj/Debug/netcoreapp3.1/Razor/Pages/About.cshtml.g.cs
 /home/xdyuxd/Desktop/handmasterjundiai/obj/Debug/netcoreapp3.1/Razor/Pages/Store.cshtml.g.cs
+/home/xdyuxd/Desktop/handmasterjundiai/bin/Debug/netcoreapp3.1/package-lock.json
+/home/xdyuxd/Desktop/handmasterjundiai/bin/Debug/netcoreapp3.1/package.json
+/home/xdyuxd/Desktop/handmasterjundiai/obj/Debug/netcoreapp3.1/Razor/Pages/Games.cshtml.g.cs

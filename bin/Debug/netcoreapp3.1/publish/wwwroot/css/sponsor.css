@@ -1,0 +1,38 @@
+﻿.sponsors {
+  display: flex;
+  align-content: space-around;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+h1 {
+  margin-top: 4%;
+  margin-bottom: 4%;
+  text-align: center;
+}
+
+.sponsor-image {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  margin: 1% 1% 1% 1%;
+  justify-items: center;
+  justify-content: center;
+}
+
+.sponsor-image  img {
+  max-width: 150px;
+  max-height: 150px;
+}
+
+.sponsor-image a{
+  max-width: 100%;
+  max-height: 100%;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+}

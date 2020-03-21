@@ -1,0 +1,55 @@
+﻿h1 {
+  margin-top: 4%;
+  margin-bottom: 4%;
+  text-align: center;
+}
+
+.main-teams h1 {
+  text-align: center;
+  margin-top: 2%;
+  font-size: 140%;
+ 
+}
+
+.main-teams {
+  height: auto;
+  display: flex;
+  align-content: space-around;
+  flex-direction: column;
+}
+
+.main-teams img{
+  height: 200px;
+  width: 150px;
+}
+
+.team-30-female-cards, .team-35-male-cards, .team-42-male-cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 8px 8px 8px 8px;
+  width: 150px;
+  height: 300px;
+}
+
+.team-30-female, .team-35-male, .team-42-male{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;  
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+}
+
+.team-30-female card-body{
+  padding: 2px 2px 2px 2px !important;
+
+}
+
+.card-text {
+  text-align: center;
+  font-size: 12px;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+}

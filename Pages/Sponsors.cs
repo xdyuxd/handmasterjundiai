@@ -22,7 +22,7 @@ namespace handmasterjundiai.Pages
         public void OnGet()
         {
             var reader = new Csv();
-            var sponsors = reader.read("sponsors.csv");
+            var sponsors = reader.read((string) DotEnv.env["SPONSOR"]);
 
             List<Sponsor> sponsorlist = new List<Sponsor>();
 

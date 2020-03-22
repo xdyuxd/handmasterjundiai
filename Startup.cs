@@ -11,6 +11,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.FileProviders;
 using Microsoft.AspNetCore.Http;
 using System.IO;
+using handmasterjundiai.Scripts;
 
 namespace handmasterjundiai
 {
@@ -48,8 +49,8 @@ namespace handmasterjundiai
             app.UseFileServer(new FileServerOptions()
             {
                 FileProvider = new PhysicalFileProvider(
-                Path.Combine(Directory.GetCurrentDirectory(), @"node_modules")), 
-                RequestPath = new PathString("/node_modules"),
+                Path.Combine(Directory.GetCurrentDirectory(), (string) DotEnv.env["PATHCOMBINE"])), 
+                RequestPath = new PathString((string) DotEnv.env["REQUESTPATH"]),
                 EnableDirectoryBrowsing = true
             });
             

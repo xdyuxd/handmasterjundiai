@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using handmasterjundiai.Scripts;
 
 namespace handmasterjundiai
 {
@@ -13,6 +14,8 @@ namespace handmasterjundiai
     {
         public static void Main(string[] args)
         {
+            DotEnv.Init("DEBUG");
+
             CreateHostBuilder(args).Build().Run();
         }
 

@@ -45,15 +45,7 @@ namespace handmasterjundiai
             }
 
             app.UseHttpsRedirection();
-
-            app.UseFileServer(new FileServerOptions()
-            {
-                FileProvider = new PhysicalFileProvider(
-                Path.Combine(Directory.GetCurrentDirectory(), (string) DotEnv.env["PATHCOMBINE"])), 
-                RequestPath = new PathString((string) DotEnv.env["REQUESTPATH"]),
-                EnableDirectoryBrowsing = true
-            });
-            
+           
             app.UseStaticFiles();
 
             app.UseRouting();

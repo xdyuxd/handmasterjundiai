@@ -2,8 +2,5 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
-  <ItemGroup>
-    <Content Include="\node_modules\**" CopyToPublishDirectory="PreserveNewest" />
-  </ItemGroup>
 </Project>
 

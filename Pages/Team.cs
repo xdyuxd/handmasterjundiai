@@ -24,7 +24,7 @@ namespace handmasterjundiai.Pages
         public void OnGet()
         {
             var reader = new Csv();
-            var players = reader.read("playerlist.csv");
+            var players = reader.read((string) DotEnv.env["PLAYER"]);
 
             List<Player> f30 = new List<Player>();
             List<Player>  m35 = new List<Player>();
